@@ -1,0 +1,53 @@
+.todo {
+    padding-top: 40px;
+}
+
+.todo__wrapper {
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.todo__inner:first-child {
+    display: flex;
+    border-radius: 8px 8px 0 0;
+    justify-content: space-between;
+    background-color: rgb(238, 238, 238);
+}
+
+.todo__count-task {
+    opacity: 0.8;
+}
+
+.todo__inner {
+    padding: 10px;
+}
+
+.todo__inner.hide {
+    display: none;
+}
+
+.todo__control {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.todo__item {
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    display: flex;
+    margin-bottom: 12px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo__id {
+    padding: 0 4px;
+}
+
+.todo__text {
+    flex-grow: 2;
+    padding-right: 20px;
+    text-align: left;
+}
